@@ -1,0 +1,15 @@
+C:\VSProjects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\ResolveAssemblyReference.cache
+C:\VSProjects\SSHExecuteCommandTask\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.dll
+C:\VSProjects\SSHExecuteCommandTask\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.pdb
+C:\VSProjects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.dll
+C:\VSProjects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.pdb
+C:\VS2008Projects\SSHExecuteCommandTask\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSHExecuteCommandTask\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.pdb
+C:\VS2008Projects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSHExecuteCommandTask\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\bin\Debug\SSHExecuteCommandTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Debug\SSHExecuteCommandTask.pdb

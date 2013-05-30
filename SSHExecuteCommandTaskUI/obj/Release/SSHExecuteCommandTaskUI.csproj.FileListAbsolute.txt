@@ -1,0 +1,7 @@
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\bin\Release\SSHExecuteCommandTaskUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\bin\Release\SSHExecuteCommandTaskUI.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\obj\Release\SSHExecuteCommandTaskUI.SSHExecuteCommandTaskUIForm.resources
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\obj\Release\SSHExecuteCommandTaskUI.csproj.GenerateResource.Cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\obj\Release\SSHExecuteCommandTaskUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTaskUI\obj\Release\SSHExecuteCommandTaskUI.pdb

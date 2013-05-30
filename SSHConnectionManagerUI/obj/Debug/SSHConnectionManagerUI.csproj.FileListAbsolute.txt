@@ -1,0 +1,14 @@
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\bin\Debug\SSHConnectionManagerUI.dll
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\bin\Debug\SSHConnectionManagerUI.pdb
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\obj\Debug\ResolveAssemblyReference.cache
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.csproj.GenerateResource.Cache
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.dll
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.pdb
+C:\VSProjects\SSHConnectionManager\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.SSHConnectionManagerUIForm.resources
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\bin\Debug\SSHConnectionManagerUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\bin\Debug\SSHConnectionManagerUI.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.SSHConnectionManagerUIForm.resources
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.csproj.GenerateResource.Cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManagerUI\obj\Debug\SSHConnectionManagerUI.pdb

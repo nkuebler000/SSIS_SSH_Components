@@ -1,0 +1,7 @@
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\obj\Release\SSHFTPTaskUI.SSHFTPTaskUIForm.resources
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\obj\Release\SSHFTPTaskUI.csproj.GenerateResource.Cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\bin\Release\SSHFTPTaskUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\bin\Release\SSHFTPTaskUI.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\obj\Release\SSHFTPTaskUI.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTaskUI\obj\Release\SSHFTPTaskUI.pdb

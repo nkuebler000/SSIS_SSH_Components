@@ -1,0 +1,5 @@
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\bin\Release\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\bin\Release\SSHExecuteCommandTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Release\SSHExecuteCommandTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHExecuteCommandTask\obj\Release\SSHExecuteCommandTask.pdb

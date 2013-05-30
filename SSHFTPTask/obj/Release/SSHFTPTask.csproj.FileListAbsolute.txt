@@ -1,0 +1,5 @@
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Release\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\bin\Release\SSHFTPTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\bin\Release\SSHFTPTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Release\SSHFTPTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Release\SSHFTPTask.pdb

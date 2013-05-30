@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DB5BF176-9C24-461B-810C-6836C5D16E12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSHFTPTask</RootNamespace>
+    <AssemblyName>SSHFTPTask</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SSHFTPTask.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.Dts.Design, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SQLServer.ManagedDTS, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DiffieHellman\DHKeyGeneration.cs" />
+    <Compile Include="DiffieHellman\DHParameters.cs" />
+    <Compile Include="DiffieHellman\DiffieHellman.cs" />
+    <Compile Include="DiffieHellman\DiffieHellmanManaged.cs" />
+    <Compile Include="DiffieHellman\mono\BigInteger.cs" />
+    <Compile Include="DiffieHellman\mono\ConfidenceFactor.cs" />
+    <Compile Include="DiffieHellman\mono\MiniParser.cs" />
+    <Compile Include="DiffieHellman\mono\NextPrimeFinder.cs" />
+    <Compile Include="DiffieHellman\mono\PrimalityTests.cs" />
+    <Compile Include="DiffieHellman\mono\PrimeGeneratorBase.cs" />
+    <Compile Include="DiffieHellman\mono\SecurityParser.cs" />
+    <Compile Include="DiffieHellman\mono\SequentialSearchPrimeGeneratorBase.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\ARCFourManaged.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\ARCFourManagedTransform.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\CryptoHandle.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\HMAC.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\MD2.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\MD2CryptoServiceProvider.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\MD4.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\MD4CryptoServiceProvider.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\RC4.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\RC4CryptoServiceProvider.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\RC4UnmanagedTransform.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\RijndaelCryptoServiceProvider.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\RijndaelUnmanagedTransform.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\StringEncryption.cs" />
+    <Compile Include="Org.Mentalis.Security\Cryptography\SymmetricKey.cs" />
+    <Compile Include="Org.Mentalis.Security\NativeMethods.cs" />
+    <Compile Include="Org.Mentalis.Security\Platform.cs" />
+    <Compile Include="Org.Mentalis.Security\Resources\ResourceController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharpSSH\ExecTest.cs" />
+    <Compile Include="SharpSSH\ITransferProtocol.cs" />
+    <Compile Include="SharpSSH\java\Exception.cs" />
+    <Compile Include="SharpSSH\java\io\File.cs" />
+    <Compile Include="SharpSSH\java\io\FileInputStream.cs" />
+    <Compile Include="SharpSSH\java\io\FileOutputStream.cs" />
+    <Compile Include="SharpSSH\java\io\InputStream.cs" />
+    <Compile Include="SharpSSH\java\io\InputStreamWrapper.cs" />
+    <Compile Include="SharpSSH\java\io\JStream.cs" />
+    <Compile Include="SharpSSH\java\io\OutputStream.cs" />
+    <Compile Include="SharpSSH\java\lang\Class.cs" />
+    <Compile Include="SharpSSH\java\lang\Integer.cs" />
+    <Compile Include="SharpSSH\java\lang\Runnable.cs" />
+    <Compile Include="SharpSSH\java\lang\StringBuffer.cs" />
+    <Compile Include="SharpSSH\java\lang\Thread.cs" />
+    <Compile Include="SharpSSH\java\net\InetAddress.cs" />
+    <Compile Include="SharpSSH\java\net\ServerSocket.cs" />
+    <Compile Include="SharpSSH\java\net\Socket.cs" />
+    <Compile Include="SharpSSH\java\Platform.cs" />
+    <Compile Include="SharpSSH\java\RuntimeException.cs" />
+    <Compile Include="SharpSSH\java\String.cs" />
+    <Compile Include="SharpSSH\java\System.cs" />
+    <Compile Include="SharpSSH\java\util\Arrays.cs" />
+    <Compile Include="SharpSSH\java\util\Enumeration.cs" />
+    <Compile Include="SharpSSH\java\util\Hashtable.cs" />
+    <Compile Include="SharpSSH\java\util\JavaString.cs" />
+    <Compile Include="SharpSSH\java\util\Vector.cs" />
+    <Compile Include="SharpSSH\jsch\Buffer.cs" />
+    <Compile Include="SharpSSH\jsch\Channel.cs" />
+    <Compile Include="SharpSSH\jsch\Channel.old.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelDirectTCPIP.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelExec.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelForwardedTCPIP.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelSession.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelSftp.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelSftpStreamGet.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelSftpStreamPut.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelShell.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelSubsystem.cs" />
+    <Compile Include="SharpSSH\jsch\ChannelX11.cs" />
+    <Compile Include="SharpSSH\jsch\Cipher.cs" />
+    <Compile Include="SharpSSH\jsch\Compression.cs" />
+    <Compile Include="SharpSSH\jsch\DH.cs" />
+    <Compile Include="SharpSSH\jsch\DHG1.cs" />
+    <Compile Include="SharpSSH\jsch\DHGEX.cs" />
+    <Compile Include="SharpSSH\jsch\ForwardedTCPIPDaemon.cs" />
+    <Compile Include="SharpSSH\jsch\HASH.cs" />
+    <Compile Include="SharpSSH\jsch\HostKey.cs" />
+    <Compile Include="SharpSSH\jsch\HostKeyRepository.cs" />
+    <Compile Include="SharpSSH\jsch\Identity.cs" />
+    <Compile Include="SharpSSH\jsch\IdentityFile.cs" />
+    <Compile Include="SharpSSH\jsch\IO.cs" />
+    <Compile Include="SharpSSH\jsch\jce\AES128CBC.cs" />
+    <Compile Include="SharpSSH\jsch\jce\BlowfishCBC.cs" />
+    <Compile Include="SharpSSH\jsch\jce\DH.cs" />
+    <Compile Include="SharpSSH\jsch\jce\HMACMD5.cs" />
+    <Compile Include="SharpSSH\jsch\jce\HMACMD596.cs" />
+    <Compile Include="SharpSSH\jsch\jce\HMACSHA1.cs" />
+    <Compile Include="SharpSSH\jsch\jce\HMACSHA196.cs" />
+    <Compile Include="SharpSSH\jsch\jce\KeyPairGenDSA.cs" />
+    <Compile Include="SharpSSH\jsch\jce\KeyPairGenRSA.cs" />
+    <Compile Include="SharpSSH\jsch\jce\MD5.cs" />
+    <Compile Include="SharpSSH\jsch\jce\Random.cs" />
+    <Compile Include="SharpSSH\jsch\jce\SHA1.cs" />
+    <Compile Include="SharpSSH\jsch\jce\SignatureDSA.cs" />
+    <Compile Include="SharpSSH\jsch\jce\SignatureRSA.cs" />
+    <Compile Include="SharpSSH\jsch\jce\TripleDESCBC.cs" />
+    <Compile Include="SharpSSH\jsch\JSch.cs" />
+    <Compile Include="SharpSSH\jsch\JSchAuthCancelException.cs" />
+    <Compile Include="SharpSSH\jsch\JSchException.cs" />
+    <Compile Include="SharpSSH\jsch\JSchPartialAuthException.cs" />
+    <Compile Include="SharpSSH\jsch\KeyExchange.cs" />
+    <Compile Include="SharpSSH\jsch\KeyPair.cs" />
+    <Compile Include="SharpSSH\jsch\KeyPairDSA.cs" />
+    <Compile Include="SharpSSH\jsch\KeyPairGenDSA.cs" />
+    <Compile Include="SharpSSH\jsch\KeyPairGenRSA.cs" />
+    <Compile Include="SharpSSH\jsch\KeyPairRSA.cs" />
+    <Compile Include="SharpSSH\jsch\KnownHosts.cs" />
+    <Compile Include="SharpSSH\jsch\MAC.cs" />
+    <Compile Include="SharpSSH\jsch\Packet.cs" />
+    <Compile Include="SharpSSH\jsch\PortWatcher.cs" />
+    <Compile Include="SharpSSH\jsch\Proxy.cs" />
+    <Compile Include="SharpSSH\jsch\ProxyHTTP.cs" />
+    <Compile Include="SharpSSH\jsch\Random.cs" />
+    <Compile Include="SharpSSH\jsch\Request.cs" />
+    <Compile Include="SharpSSH\jsch\RequestExec.cs" />
+    <Compile Include="SharpSSH\jsch\RequestPtyReq.cs" />
+    <Compile Include="SharpSSH\jsch\RequestSftp.cs" />
+    <Compile Include="SharpSSH\jsch\RequestShell.cs" />
+    <Compile Include="SharpSSH\jsch\RequestSignal.cs" />
+    <Compile Include="SharpSSH\jsch\RequestSubsystem.cs" />
+    <Compile Include="SharpSSH\jsch\RequestWindowChange.cs" />
+    <Compile Include="SharpSSH\jsch\RequestX11.cs" />
+    <Compile Include="SharpSSH\jsch\ServerSocketFactory.cs" />
+    <Compile Include="SharpSSH\jsch\Session.cs" />
+    <Compile Include="SharpSSH\jsch\SftpATTRS.cs" />
+    <Compile Include="SharpSSH\jsch\SftpException.cs" />
+    <Compile Include="SharpSSH\jsch\SftpProgressMonitor.cs" />
+    <Compile Include="SharpSSH\jsch\SignatureDSA.cs" />
+    <Compile Include="SharpSSH\jsch\SignatureRSA.cs" />
+    <Compile Include="SharpSSH\jsch\SocketFactory.cs" />
+    <Compile Include="SharpSSH\jsch\UIKeyboardInteractive.cs" />
+    <Compile Include="SharpSSH\jsch\UserAuth.cs" />
+    <Compile Include="SharpSSH\jsch\UserAuthKeyboardInteractive.cs" />
+    <Compile Include="SharpSSH\jsch\UserAuthNone.cs" />
+    <Compile Include="SharpSSH\jsch\UserAuthPassword.cs" />
+    <Compile Include="SharpSSH\jsch\UserAuthPublicKey.cs" />
+    <Compile Include="SharpSSH\jsch\UserInfo.cs" />
+    <Compile Include="SharpSSH\jsch\Util.cs" />
+    <Compile Include="SharpSSH\Scp.cs" />
+    <Compile Include="SharpSSH\Scp.old.cs" />
+    <Compile Include="SharpSSH\SecureShell.cs" />
+    <Compile Include="SharpSSH\Sftp.cs" />
+    <Compile Include="SharpSSH\SshBase.cs" />
+    <Compile Include="SharpSSH\SshExe.cs" />
+    <Compile Include="SharpSSH\SshHelper.cs" />
+    <Compile Include="SharpSSH\SshShell.cs" />
+    <Compile Include="SharpSSH\SshStream.cs" />
+    <Compile Include="SharpSSH\SshTransferException.cs" />
+    <Compile Include="SharpSSH\SshTransferProtocolBase.cs" />
+    <Compile Include="SharpSSH\Streams\CombinedStream.cs" />
+    <Compile Include="SharpSSH\Streams\InputStream.cs" />
+    <Compile Include="SharpSSH\Streams\OutputStream.cs" />
+    <Compile Include="SharpSSH\Streams\PipedInputStream.cs" />
+    <Compile Include="SharpSSH\Streams\PipedOutputStream.cs" />
+    <Compile Include="SharpSSH\Streams\PipedStream.cs" />
+    <Compile Include="SharpSSH\Streams\ProtectedConsoleStream.cs" />
+    <Compile Include="SSHFTPTask.cs" />
+    <Compile Include="StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SharpSSH\java\io\CVS\Entries" />
+    <None Include="SharpSSH\java\io\CVS\Repository" />
+    <None Include="SharpSSH\java\io\CVS\Root" />
+    <None Include="SharpSSH\java\lang\CVS\Entries" />
+    <None Include="SharpSSH\java\lang\CVS\Repository" />
+    <None Include="SharpSSH\java\lang\CVS\Root" />
+    <None Include="SharpSSH\java\net\CVS\Entries" />
+    <None Include="SharpSSH\java\net\CVS\Repository" />
+    <None Include="SharpSSH\java\net\CVS\Root" />
+    <None Include="SharpSSH\java\util\CVS\Entries" />
+    <None Include="SharpSSH\java\util\CVS\Repository" />
+    <None Include="SharpSSH\java\util\CVS\Root" />
+    <None Include="SSHFTPTask.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>gacutil /u "$(TargetName)"
+gacutil /if "$(TargetPath)"
+copy "$(TargetPath)" "%25PROGRAMFILES%25\Microsoft SQL Server\100\DTS\Tasks" /Y
+copy "$(TargetPath)" "%25PROGRAMFILES%25\Microsoft SQL Server\100\DTS\PipelineComponents" /Y
+copy "$(TargetPath)" "%25PROGRAMFILES%25\Microsoft SQL Server\100\DTS\Connections" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

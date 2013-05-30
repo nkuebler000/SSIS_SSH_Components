@@ -1,0 +1,10 @@
+C:\VSProjects\SSHFTPTask\SSHFTPTask\bin\Debug\SSHFTPTask.dll
+C:\VSProjects\SSHFTPTask\SSHFTPTask\bin\Debug\SSHFTPTask.pdb
+C:\VSProjects\SSHFTPTask\SSHFTPTask\obj\Debug\ResolveAssemblyReference.cache
+C:\VSProjects\SSHFTPTask\SSHFTPTask\obj\Debug\SSHFTPTask.dll
+C:\VSProjects\SSHFTPTask\SSHFTPTask\obj\Debug\SSHFTPTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\bin\Debug\SSHFTPTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\bin\Debug\SSHFTPTask.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Debug\SSHFTPTask.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHFTPTask\obj\Debug\SSHFTPTask.pdb

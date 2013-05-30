@@ -1,0 +1,10 @@
+C:\VSProjects\SSHConnectionManager\SSHConnectionManager\bin\Debug\SSHConnectionManager.dll
+C:\VSProjects\SSHConnectionManager\SSHConnectionManager\bin\Debug\SSHConnectionManager.pdb
+C:\VSProjects\SSHConnectionManager\SSHConnectionManager\obj\Debug\ResolveAssemblyReference.cache
+C:\VSProjects\SSHConnectionManager\SSHConnectionManager\obj\Debug\SSHConnectionManager.dll
+C:\VSProjects\SSHConnectionManager\SSHConnectionManager\obj\Debug\SSHConnectionManager.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManager\bin\Debug\SSHConnectionManager.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManager\bin\Debug\SSHConnectionManager.pdb
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManager\obj\Debug\ResolveAssemblyReference.cache
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManager\obj\Debug\SSHConnectionManager.dll
+C:\VS2008Projects\SSIS_SSH_Components\SSHConnectionManager\obj\Debug\SSHConnectionManager.pdb
